@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Health Care
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <!--<div class="vnavbar navbar-inverse navbar-fixed-top">...</div>-->
+
+        <!--Links in navigation bar-->
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#help">Help</a>
+            <a href="#about">About</a>
+            <a href="#forum">Forum</a>
+        </div>
+        <br><br>
+        <p><h3>Make an appointment</h3></p>
+        <br>
+        <form>
+            Enter your full name:
+            <input name="fullname" type="text">
+            <br>
+            Enter your age:
+            <input name="age" type="number">
+            <br>
+            Enter your gender:
+            <select name="gender">
+                <option value="gender">Choose any one</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            Reason for appointment:
+            <input name="reason" type="text">
+            <br><br>
+            <input type="button" onclick="alert('Continue making the appoitment!')" value="Submit">
+        </form>
+
+    </body>
+</html>
